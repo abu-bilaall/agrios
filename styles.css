@@ -1,0 +1,27 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.coloured-tapes {
+    display: flex;
+    background-color: bisque;
+}
+
+#one, #two, #three {
+    height: 6px;
+    width: calc(35%);
+}
+
+#one {
+    background-color: #4BAF47;
+}
+
+#two {
+    background-color: #C5CE38;
+}
+
+#three {
+    background-color: #EEC044;
+}
