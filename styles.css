@@ -8,7 +8,9 @@ body {
     display: flex;
 }
 
-#one, #two, #three {
+#one,
+#two,
+#three {
     height: 6px;
     width: calc(35%);
 }
@@ -140,4 +142,72 @@ body {
     font-weight: 500;
     font-size: 18px;
     color: #A5A49A;
+}
+
+.testimonials {
+    height: 660px;
+    background-image: url(./images/testimonials-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-title {
+    font-weight: 400;
+    font-size: 24px;
+    color: #EEC044;
+}
+
+.testimonial-header {
+    font-weight: 800;
+    font-size: 48px;
+    color: #1F1E17;
+}
+
+.customer-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.bonnie,
+.sarah {
+    width: 500px;
+    height: 285px;
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-texts {
+    font-weight: 400;
+    font-size: 18px;
+    color: #878680;
+}
+
+.fullname,
+.customer-title {
+    align-self: flex-end;
+}
+
+.fullname {
+    font-weight: 800;
+    font-size: 20px;
+    color: #1F1E17;
+}
+
+.customer-title {
+    font-weight: 500;
+    font-size: 16px;
+    color: #878680;
 }
